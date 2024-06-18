@@ -4,6 +4,19 @@ padding: 0px;
 box-sizing: 0px;
 }
 
+.layout {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .footer{
+    min-height: 10vh;
+}
+
+.main {
+    flex-grow: 1;
+}
 header {
     height: 70px;
     width: 1360px;
@@ -22,7 +35,7 @@ height:80px;
 .navbar {
     width: 500px;
     display:flex;
-    flex-direction: row;
+   
     align-items: center;
     justify-content: space-around;
     font-size: 15px;
