@@ -259,3 +259,36 @@ table {
     width:100vw;
     background-color: #b9828b;
 }
+
+
+    
+.mapa {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    max-width: 40wh;
+
+
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+}   
+
+ .raffletit {
+    font-size: 20px;
+    text-align: center;
+ }
+ .summit {
+    display: flex;
+    flex-direction: row;
+ }
+.pay {
+    display: flex;
+    flex-direction: column;
+}
+.message {
+    display: flex;
+    flex-direction: column;
+}
